@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root{
+    --green:#16db93;
+    --green-dark:#13bc7e;
+    --light-grey:#f1f4f6;
+}
+*{
+    font-family: 'robot',sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+}
+.display-1{
+    letter-spacing: 1px;
+}
+.bg-green{
+    background-color: var(--green) !important;
+}
+.btn{
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.6rem 0;
+    width: 160px;
+
+}
+.bg-grey{
+    background-color: var(--light-grey);
+}
+.circle-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+.lh-lg{
+    line-height: 1.7 !important;
+}
+.btn-green{
+    background-color: var(--green) !important;
+    color: #fff !important;
+    padding: 0.55rem 0;
+    width: 140px;
+    border-radius: 30px !important;
+
+}
+.btn-green:hover{
+    color: var(--green) !important;
+    background-color: #fff !important;
+    border-color: var(--green);
+
+}
+.text-green{
+    color: var(--green);
+}
+header{
+    height: 100vh;
+
+}
+.navbar-brand .fa{
+    font-size: 1.3rem;
+}
+.nav-icon p{
+    font-size: 1rem;
+    margin-right: 0.6rem;
+}
+.btn-header:hover{
+    background-color: #fff;
+    color: var(--green) !important;
+}
+.phone-img img{
+    width: 500px;
+}
+#sec-6{
+    background: linear-gradient(rgba(22, 219, 147, 0.9), rgba(22, 219, 147, 0.9)), url(imgae/section-6.jpg) center/cover no-repeat;
+}
+#sec-7 .card{
+    border: none;
+}
+#sec-8 .carousel-item img{
+    width: 180px !important;
+}
+.pricing-item{
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 340px;
+}
+.pricing-title{
+    background-color: var(--green-dark);
+}
+.pricing-price, .pricing-item ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.9rem 0;
+}
+.price-item .btn:hover{
+    background-color: transparent !important;
+    color: #fff;
+}
+.pricing-footer .btn{
+    border-radius: 30px;
+    color: var(--green);
+}
